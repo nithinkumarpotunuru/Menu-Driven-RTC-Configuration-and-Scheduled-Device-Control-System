@@ -1,55 +1,0 @@
-Dependencies for Project 'mini_proj', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x6AA82F5C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\lcd.c)(0x6AA82F5C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
-I (lcd.h)(0x6AB14439)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (timer.h)(0x6AA82F5C)
-F (.\timer.c)(0x6AA8DA47)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
-I (timer.h)(0x6AA82F5C)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-F (.\rtc.c)(0x6ABA6890)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
-I (rtc.h)(0x6AA82F5C)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (lcd.h)(0x6AB14439)
-I (keypad.h)(0x6AA82F5C)
-I (timer.h)(0x6AA82F5C)
-F (.\keypad.c)(0x6AAA9A44)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keypad.o --omf_browse .\keypad.crf --depend .\keypad.d)
-I (keypad.h)(0x6AA82F5C)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (timer.h)(0x6AA82F5C)
-I (lcd.h)(0x6AB14439)
-F (.\iap.c)(0x6AA82F5C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\iap.o --omf_browse .\iap.crf --depend .\iap.d)
-I (iap.h)(0x6AA82F5C)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (lcd.h)(0x6AB14439)
-I (keypad.h)(0x6AA82F5C)
-I (timer.h)(0x6AA82F5C)
-F (.\interrupt.c)(0x6AA8333C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
-I (interrupt.h)(0x6AA82F5C)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (lcd.h)(0x6AB14439)
-I (keypad.h)(0x6AA82F5C)
-I (timer.h)(0x6AA82F5C)
-I (rtc.h)(0x6AA82F5C)
-I (iap.h)(0x6AA82F5C)
-F (.\main.c)(0x6AB5364D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (config.h)(0x6AB7D565)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
-I (lcd.h)(0x6AB14439)
-I (timer.h)(0x6AA82F5C)
-I (rtc.h)(0x6AA82F5C)
-I (iap.h)(0x6AA82F5C)
-I (interrupt.h)(0x6AA82F5C)

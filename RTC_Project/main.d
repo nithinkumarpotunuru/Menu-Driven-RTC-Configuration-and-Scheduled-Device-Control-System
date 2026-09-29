@@ -1,0 +1,9 @@
+.\main.o: main.c
+.\main.o: config.h
+.\main.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: lcd.h
+.\main.o: timer.h
+.\main.o: rtc.h
+.\main.o: iap.h
+.\main.o: interrupt.h

@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\timer.o"
+".\rtc.o"
+".\keypad.o"
+".\iap.o"
+".\interrupt.o"
+".\main.o"
+--strict --scatter ".\MINI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\MINI.map" -o .\MINI.axf
